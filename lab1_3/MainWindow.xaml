@@ -1,0 +1,26 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1_3"
+        xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime" x:Class="lab1_3.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="763">
+    <Grid Margin="0,0,30,0">
+        <ListBox Margin="10,10,598,217">
+            <ListBoxItem Content="Меркурий" Selected="LBA_Mercury"/>
+            <ListBoxItem Content="Венера" Selected="LBA_Venus"/>
+            <ListBoxItem Content="Земля" Selected="LBA_Earth"/>
+            <ListBoxItem Content="Марс" Selected="LBA_Mars"/>
+            <ListBoxItem Content="Юпитер" Selected="LBA_Jupiter"/>
+            <ListBoxItem Content="Сатурн" Selected="LBA_Saturn"/>
+            <ListBoxItem Content="Уран" Selected="LBA_Uranus"/>
+            <ListBoxItem Content="Нептун" Selected="LBA_Neptune"/>
+        </ListBox>
+        <TextBox x:Name="info" HorizontalAlignment="Left" Margin="219,0,0,0" TextWrapping="Wrap" Text="Выберите планету слева" VerticalAlignment="Center" Width="543" Height="415" AllowDrop="False" Focusable="False"/>
+    </Grid>
+
+</Window>
+
+    

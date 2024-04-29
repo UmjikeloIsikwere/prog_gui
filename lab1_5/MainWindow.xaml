@@ -1,0 +1,14 @@
+﻿<Window x:Class="lab1_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="lab1_5" Height="350" Width="500">
+    <Grid>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Файл" Height="62" Width="118">
+                <MenuItem Header="Открыть" Click="OpenFile_Click"/>
+                <MenuItem Header="Сохранить" Click="SaveFile_Click"/>
+            </MenuItem>
+        </Menu>
+        <ListBox Name="textListBox" Margin="120,0,0,0"/>
+    </Grid>
+</Window>
